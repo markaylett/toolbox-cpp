@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['elems',['elems',['../structtoolbox_1_1ipc_1_1MpmcQueue_1_1Impl.html#a9d7a59da3d4dad3c17c95c1cba208457',1,'toolbox::ipc::MpmcQueue::Impl']]],
-  ['expiry',['expiry',['../structtoolbox_1_1io_1_1Timer_1_1Impl.html#a85cf708f8b097daf84348fba38a80ba7',1,'toolbox::io::Timer::Impl']]]
+  ['bitness',['Bitness',['../Histogram_8ut_8cpp.html#a1230a058d34d8b1ff674ddb8667eb0e7',1,'Histogram.ut.cpp']]],
+  ['bucket_5fcount',['bucket_count',['../structtoolbox_1_1hdr_1_1HdrBucketConfig.html#afb73d2094e728a77e7ab2a27ec53f30d',1,'toolbox::hdr::HdrBucketConfig']]]
 ];

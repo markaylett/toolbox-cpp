@@ -23,6 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Toolbox
+   &#160;<span id="projectnumber">develop</span>
    </div>
    <div id="projectbrief">The Reactive C++ Toolbox</div>
   </td>
@@ -72,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="Stream_8hpp_source.html">toolbox/util/Stream.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="util_2Stream_8hpp_source.html">toolbox/util/Stream.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for toolbox::util::StaticBuf&lt; MaxN &gt;:</div>
 <div class="dyncontent">
@@ -86,8 +87,8 @@ Inheritance diagram for toolbox::util::StaticBuf&lt; MaxN &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d9b5f741e34a9392b5086b297d393f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html#a8d9b5f741e34a9392b5086b297d393f0">StaticBuf</a> () noexcept</td></tr>
 <tr class="separator:a8d9b5f741e34a9392b5086b297d393f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15c0d87685083e4cd18eace257c5c106"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html#a15c0d87685083e4cd18eace257c5c106">~StaticBuf</a> () override=default</td></tr>
-<tr class="separator:a15c0d87685083e4cd18eace257c5c106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ff7a766d56a0e24389dd33086f3b70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html#ae2ff7a766d56a0e24389dd33086f3b70">~StaticBuf</a> () final=default</td></tr>
+<tr class="separator:ae2ff7a766d56a0e24389dd33086f3b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6b532647e948b056e312da7cd42027c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html#ab6b532647e948b056e312da7cd42027c">StaticBuf</a> (const <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">StaticBuf</a> &amp;)=delete</td></tr>
 <tr class="separator:ab6b532647e948b056e312da7cd42027c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0774a830a572753ab628a1ad32cff98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">StaticBuf</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html#ae0774a830a572753ab628a1ad32cff98">operator=</a> (const <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">StaticBuf</a> &amp;)=delete</td></tr>
@@ -112,7 +113,7 @@ Public Member Functions</h2></td></tr>
 class toolbox::util::StaticBuf&lt; MaxN &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00033">33</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00033">33</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8d9b5f741e34a9392b5086b297d393f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d9b5f741e34a9392b5086b297d393f0">&#9670;&nbsp;</a></span>StaticBuf() <span class="overload">[1/3]</span></h2>
@@ -139,12 +140,12 @@ template&lt;std::size_t MaxN&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00035">35</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00035">35</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a15c0d87685083e4cd18eace257c5c106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15c0d87685083e4cd18eace257c5c106">&#9670;&nbsp;</a></span>~StaticBuf()</h2>
+<a id="ae2ff7a766d56a0e24389dd33086f3b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2ff7a766d56a0e24389dd33086f3b70">&#9670;&nbsp;</a></span>~StaticBuf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,10 +164,12 @@ template&lt;std::size_t MaxN&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="util_2Stream_8hpp_source.html#l00035">toolbox::util::StaticBuf&lt; MaxN &gt;::StaticBuf()</a>.</p>
 
 </div>
 </div>
@@ -227,64 +230,6 @@ template&lt;std::size_t MaxN&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4e0d73c9f283bad794c97c443ca90dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e0d73c9f283bad794c97c443ca90dac">&#9670;&nbsp;</a></span>data()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxN&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">toolbox::util::StaticBuf</a>&lt; MaxN &gt;::data </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00046">46</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
-
-</div>
-</div>
-<a id="abd37e99923ab4c60186bef12895f92a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd37e99923ab4c60186bef12895f92a4">&#9670;&nbsp;</a></span>empty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxN&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">toolbox::util::StaticBuf</a>&lt; MaxN &gt;::empty </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00047">47</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
-
-</div>
-</div>
 <a id="ae0774a830a572753ab628a1ad32cff98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0774a830a572753ab628a1ad32cff98">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -310,6 +255,8 @@ template&lt;std::size_t MaxN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="util_2Stream_8hpp_source.html#l00035">toolbox::util::StaticBuf&lt; MaxN &gt;::StaticBuf()</a>, and <a class="el" href="util_2Stream_8hpp_source.html#l00059">toolbox::util::StaticStream&lt; MaxN &gt;::StaticStream()</a>.</p>
 
 </div>
 </div>
@@ -341,8 +288,8 @@ template&lt;std::size_t MaxN&gt; </div>
 
 </div>
 </div>
-<a id="a159f1bd3446927819d4a541ea4e8f8bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a159f1bd3446927819d4a541ea4e8f8bb">&#9670;&nbsp;</a></span>reset()</h2>
+<a id="a4e0d73c9f283bad794c97c443ca90dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0d73c9f283bad794c97c443ca90dac">&#9670;&nbsp;</a></span>data()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,10 +300,10 @@ template&lt;std::size_t MaxN&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">toolbox::util::StaticBuf</a>&lt; MaxN &gt;::reset </td>
+          <td class="memname">const char* <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">toolbox::util::StaticBuf</a>&lt; MaxN &gt;::data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -366,7 +313,38 @@ template&lt;std::size_t MaxN&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00050">50</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00046">46</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="util_2Stream_8hpp_source.html#l00049">toolbox::util::StaticBuf&lt; MaxN &gt;::str()</a>.</p>
+
+</div>
+</div>
+<a id="abd37e99923ab4c60186bef12895f92a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd37e99923ab4c60186bef12895f92a4">&#9670;&nbsp;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t MaxN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">toolbox::util::StaticBuf</a>&lt; MaxN &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00047">47</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
 
 </div>
 </div>
@@ -395,7 +373,9 @@ template&lt;std::size_t MaxN&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00048">48</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00048">48</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="util_2Stream_8hpp_source.html#l00049">toolbox::util::StaticBuf&lt; MaxN &gt;::str()</a>.</p>
 
 </div>
 </div>
@@ -424,12 +404,43 @@ template&lt;std::size_t MaxN&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stream_8hpp_source.html#l00049">49</a> of file <a class="el" href="Stream_8hpp_source.html">Stream.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00049">49</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a159f1bd3446927819d4a541ea4e8f8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159f1bd3446927819d4a541ea4e8f8bb">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t MaxN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtoolbox_1_1util_1_1StaticBuf.html">toolbox::util::StaticBuf</a>&lt; MaxN &gt;::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="util_2Stream_8hpp_source.html#l00050">50</a> of file <a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="util_2Stream_8hpp_source.html#l00035">toolbox::util::StaticBuf&lt; MaxN &gt;::StaticBuf()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>toolbox/util/<a class="el" href="Stream_8hpp_source.html">Stream.hpp</a></li>
+<li>toolbox/util/<a class="el" href="util_2Stream_8hpp_source.html">Stream.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
