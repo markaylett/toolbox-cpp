@@ -15,6 +15,7 @@
 # limitations under the License.
 
 set(targets
+  tb-float-bench
   tb-log-bench
   tb-map-bench
   tb-ryu-bench
@@ -23,6 +24,9 @@ set(targets
   tb-util-bench)
 
 add_custom_target(tb-bench DEPENDS ${targets})
+
+add_executable(tb-float-bench Float.bm.cpp)
+target_link_libraries(tb-float-bench ${tb_bm_LIBRARY} dragonbox::dragonbox_to_chars)
 
 add_executable(tb-log-bench Log.bm.cpp)
 target_link_libraries(tb-log-bench ${tb_bm_LIBRARY})

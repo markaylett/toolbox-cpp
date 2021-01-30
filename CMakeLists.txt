@@ -17,6 +17,7 @@
 # Version 3.1 required for CMAKE_CXX_STANDARD.
 cmake_minimum_required(VERSION 3.12)
 project(toolbox-cpp)
+include(FetchContent)
 include(GNUInstallDirs)
 
 # Configuration options:
@@ -141,6 +142,21 @@ endfunction()
 include_directories(
   "${PROJECT_SOURCE_DIR}"
   "${CMAKE_BINARY_DIR}/include")
+
+FetchContent_Declare(
+  dragonbox
+  GIT_REPOSITORY https://github.com/jk-jeon/dragonbox.git
+  GIT_TAG master)
+
+FetchContent_Declare(
+  fast_float
+  GIT_REPOSITORY https://github.com/fastfloat/fast_float.git
+  GIT_TAG main)
+
+FetchContent_MakeAvailable(dragonbox fast_float)
+include_directories(
+    "${dragonbox_SOURCE_DIR}/include"
+    "${fast_float_SOURCE_DIR}/include")
 
 if(NOT TOOLBOX_BUILD_SHARED)
   set(Boost_USE_STATIC_LIBS ON)

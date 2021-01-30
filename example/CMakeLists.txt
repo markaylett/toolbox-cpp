@@ -29,3 +29,6 @@ target_link_libraries(tb-echo-serv ${tb_core_LIBRARY})
 
 add_executable(tb-http-serv HttpServ.cpp)
 target_link_libraries(tb-http-serv ${tb_core_LIBRARY})
+
+add_executable(tb-scratch Scratch.cpp)
+target_link_libraries(tb-scratch ${tb_core_LIBRARY})
