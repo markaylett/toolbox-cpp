@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['logger',['Logger',['../namespacetoolbox_1_1sys.html#ad30773ec4571816fa4459ed92884acdc',1,'toolbox::sys']]],
-  ['logmsg',['LogMsg',['../namespacetoolbox_1_1sys.html#a16158a8cb63ed525b556394583d01a22',1,'toolbox::sys']]]
+  ['logmsgptr_2248',['LogMsgPtr',['../namespacetoolbox_1_1sys.html#a90375ff3ad41e051d34219123f8cae1d',1,'toolbox::LogMsgPtr()'],['../namespacetoolbox_1_1sys.html#a90375ff3ad41e051d34219123f8cae1d',1,'toolbox::sys::LogMsgPtr()']]],
+  ['logstream_2249',['LogStream',['../namespacetoolbox_1_1sys.html#a2d316964302f8ef8f39a43db2a5992db',1,'toolbox::LogStream()'],['../namespacetoolbox_1_1sys.html#a2d316964302f8ef8f39a43db2a5992db',1,'toolbox::sys::LogStream()']]]
 ];
