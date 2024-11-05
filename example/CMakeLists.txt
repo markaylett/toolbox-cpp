@@ -18,7 +18,8 @@ set(targets
   tb-echo-clnt
   tb-echo-serv
   tb-http-serv
-  tb-inotify)
+  tb-inotify
+  tb-timer-wheel)
 
 add_custom_target(tb-example DEPENDS ${targets})
 
@@ -33,3 +34,6 @@ target_link_libraries(tb-http-serv ${tb_core_LIBRARY})
 
 add_executable(tb-inotify Inotify.cpp)
 target_link_libraries(tb-inotify ${tb_core_LIBRARY})
+
+add_executable(tb-timer-wheel TimerWheel.cpp)
+target_link_libraries(tb-timer-wheel ${tb_core_LIBRARY})
